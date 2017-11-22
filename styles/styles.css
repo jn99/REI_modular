@@ -1,0 +1,89 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: white;
+  font-family: Roboto,"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.module{
+  text-align: center;
+  width: 10rem;
+  padding: 0 20px;
+  border: 1px solid red;
+}
+
+img{
+  height: 10rem;
+  border: 1px solid red;
+}
+
+.swatches li{
+  list-style-type: none;
+  border-radius: 50%;
+  height: 1rem;
+  width: 1rem;
+  float: left;
+  margin: .5em;
+}
+
+.bg-black{
+  background-color: black;
+}
+
+.bg-blue{
+  background-color: blue;
+}
+
+.bg-green{
+  background-color: green;
+}
+
+.bg-purple{
+  background-color: purple;
+}
+
+.bg-gray{
+  background-color: gray;
+}
+
+.bg-red{
+  background-color: red;
+}
+
+a{
+  text-decoration: none;
+}
+
+.underlineHover:hover{
+  text-decoration: underline;
+}
+
+h3, p{
+  color: black;
+}
+
+.redText{
+  color: red;
+}
+
+.strikethrough{
+  text-decoration: line-through;
+  font-weight: bold;
+}
+
+.star{
+  color: red;
+  font-size: 1.5rem;
+}
+
+.button{
+  padding: 5px 15px;
+}
+
+.clearfix{
+  clear: both;
+}
+
