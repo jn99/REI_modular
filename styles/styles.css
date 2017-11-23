@@ -9,15 +9,37 @@ body{
 }
 
 .module{
+  position: relative;
   text-align: center;
-  width: 10rem;
-  padding: 0 20px;
-  border: 1px solid red;
+  min-height: 1px;
+  padding: 15px;
+  float: left;
+  width: 20%;
+  height: 400px;
+}
+
+.container{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
+.container:before,
+.container:after {
+  display: table;
+  content: " ";
+}
+
+.container:after {
+  clear: both;
 }
 
 img{
   height: 10rem;
-  border: 1px solid red;
+}
+
+ul{
+  display: flex;
+  justify-content: center;
 }
 
 .swatches li{
@@ -86,4 +108,5 @@ h3, p{
 .clearfix{
   clear: both;
 }
+
 
